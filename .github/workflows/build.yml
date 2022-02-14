@@ -39,4 +39,4 @@ jobs:
           push: true
           context: .
           platforms: linux/amd64,linux/arm64,linux/386
-          tags: cnbian/samba:${{ env.APP_VERSION }}
+          tags: cnbian/samba:${{ env.APP_VERSION }},cnbian/samba:latest
