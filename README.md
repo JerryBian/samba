@@ -1,7 +1,10 @@
 ```
-Forked from dperson/samba, rewrite the Dockerfile to publish latest version of dependencies.
+Forked from dperson/samba, 
+rewrite the Dockerfile to publish latest version of dependencies.
 
-The new image can be found on: cnbian/samba, this means you have to replace image names in following instructions. 
+The new image can be found on: cnbian/samba, 
+https://hub.docker.com/r/cnbian/samba
+this means you have to replace image names in following instructions. 
 
 ```
 
