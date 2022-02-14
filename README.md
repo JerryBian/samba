@@ -1,4 +1,9 @@
-[![logo](https://raw.githubusercontent.com/dperson/samba/master/logo.jpg)](https://www.samba.org)
+```
+Forked from dperson/samba, rewrite the Dockerfile to publish latest version of dependencies.
+
+The new image can be found on: cnbian/samba
+
+```
 
 # Samba
 
