@@ -42,3 +42,11 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64,linux/386
           tags: cnbian/samba:${{ env.APP_VERSION }},cnbian/samba:latest
+      - run: |
+          date=$(date -d '+8 hour' '+%Y-%m-%d %H:%M:%S')
+          git config --global user.email "JerryBian@outlook.com"
+          git config --global user.name "GitHub Action Schedule"
+          echo "$date" > _timestamp.txt
+          git add .
+          git commit -m ":100: $date"
+          git push
