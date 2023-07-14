@@ -1,5 +1,7 @@
 FROM alpine
 
+ENV TZ=Asia/Shanghai
+
 # Install samba
 RUN apk --no-cache --no-progress upgrade && \
     apk --no-cache --no-progress add bash samba shadow tini tzdata && \
